@@ -101,7 +101,7 @@ function detectCollision (stone,mango) {
 }
 
 function keyPressed () {
-  if (keycode === 32) {
+  if (keyCode === 32) {
     Matter.body.setPosition(stone.body, {x:235 , y:425 })
     launcherObject.attach(stone.body);
   }
